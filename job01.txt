@@ -1,0 +1,14 @@
+About the Role
+You'll report to the Technology Lead and help design, build, and implement an AI and automation platform that lifts efficiency, scalability, and insight across Avivo. You'll work in our Technology Team with data engineering, integration, architecture, systems and operations streams and with business stakeholders to spot opportunities, shape solutions, and embed capability across the organization. The role is full time with a 12 months fixed term.
+Key Responsibilities
+* Design and build AI and automation frameworks and platforms
+* Research, recommend and implement AI, ML and automation tools
+* Develop automation scripts and frameworks to streamline workflows and improve data quality
+* Build and deploy AI/ML models for predictive analytics, anomaly detection and decision‑making
+* Integrate solutions with existing systems and platforms
+* Work with Data Engineers on data prep, model training and validation
+* Deploy, monitor and continually improve ML models in production
+* Partner with business stakeholders to translate technical ideas into practical outcomes
+* Ensure solutions meet security, compliance and data‑governance standards
+* Apply best‑practice software development, including testing, documentation and release management
+* Stay up to date with emerging AI, ML and automation approaches and recommend improvements

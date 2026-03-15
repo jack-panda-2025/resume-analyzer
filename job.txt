@@ -1,0 +1,34 @@
+Senior Front-End Developer / Full Stack Developer
+6-Month Contract
+
+We are seeking a Senior Front End or Full Stack Developer to join immediately within a product-focused engineering team building a large-scale software platform used in open pit mining operations.
+This role offers the opportunity to contribute to a modern, mission-critical system where new features are continuously developed and deployed into live operational environments.
+  
+Key Responsibilities
+Design, build, and enhance modern web applications used in industrial and technical environments
+Contribute across both front-end and back-end development
+Develop and maintain applications using TypeScript, React.js, C#, .NET, and AWS
+Work with contemporary JavaScript frameworks and cloud-based infrastructure
+Collaborate closely with engineers, product teams, and domain specialists
+Improve performance, scalability, and reliability of core systems
+Participate in code reviews, testing, and continuous improvement initiatives
+Support deployment of features into live operational environments
+  
+Skills and Experience
+Required
+5+ years’ experience as a software developer (front-end or full stack)
+Proven experience developing web applications
+Strong skills in modern JavaScript / TypeScript environments
+Strong React experience, including component libraries such as MUI, Mantine, or shadcn
+Experience with state management libraries such as Redux, Zustand, or MobX
+Experience building and consuming APIs and backend services using C# and .NET
+Exposure to cloud platforms (AWS preferred) and modern deployment practices
+Comfortable working in a collaborative, Agile-style team environment
+Strong problem-solving ability and attention to quality
+Desirable
+Experience with Docker and Kubernetes
+Exposure to 3D visualisation, imagery, mapping, or data-heavy applications
+Mining industry experience, particularly open pit mining systems
+  
+About the Role
+While experience in mining or industrial systems is advantageous, it is not essential. We are looking for experienced developers who take ownership of their work, care deeply about quality, and enjoy solving complex problems in real-world operational environments.
