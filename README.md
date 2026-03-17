@@ -9,6 +9,7 @@ A resume analysis tool powered by the Claude API. Supports both a CLI interface 
 - Provides skill match analysis, missing keywords, and improvement suggestions
 - CLI mode: saves analysis output to `output.txt`
 - API mode: exposes REST endpoints for integration with other services
+- Frontend mode: web UI to upload a resume and optionally match against a job description
 
 ## Requirements
 
@@ -56,7 +57,10 @@ npm install
 npm start
 ```
 
-The app runs at `http://localhost:3000`. It provides a simple interface to upload a PDF resume and display the analysis result from the `/analyze` API endpoint.
+The app runs at `http://localhost:3000` and provides two modes:
+
+- **Analyze**: Upload a PDF resume and click "Analyze" to get a standalone analysis (core skills, job directions, strengths, and improvements).
+- **Match with JD**: Upload a PDF resume, paste a job description into the text box, and click "Match with JD" to get a match report (matched skills, missing keywords, suggested edits).
 
 > Make sure the FastAPI backend is running (`uvicorn api:app --reload`) before using the frontend.
 
