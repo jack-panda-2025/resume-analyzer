@@ -44,6 +44,22 @@ python resume_analyzer.py resume.pdf job.txt
 
 Results are saved to `output.txt`.
 
+### Frontend (React)
+
+A React web UI is included in the `resume-frontend/` directory.
+
+**Start the frontend:**
+
+```bash
+cd resume-frontend
+npm install
+npm start
+```
+
+The app runs at `http://localhost:3000`. It provides a simple interface to upload a PDF resume and display the analysis result from the `/analyze` API endpoint.
+
+> Make sure the FastAPI backend is running (`uvicorn api:app --reload`) before using the frontend.
+
 ### API Server
 
 Start the FastAPI server:
