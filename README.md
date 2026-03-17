@@ -1,13 +1,14 @@
 # Resume Analyzer
 
-A CLI tool that uses the Claude API to analyze a resume (PDF) against a job description and provide actionable feedback.
+A resume analysis tool powered by the Claude API. Supports both a CLI interface and a FastAPI REST API server.
 
 ## Features
 
 - Extracts text from PDF resumes
 - Matches resume against a job description (optional)
 - Provides skill match analysis, missing keywords, and improvement suggestions
-- Saves analysis output to `output.txt`
+- CLI mode: saves analysis output to `output.txt`
+- API mode: exposes REST endpoints for integration with other services
 
 ## Requirements
 
@@ -31,6 +32,8 @@ cp .env.example .env
 
 ## Usage
 
+### CLI
+
 ```bash
 # Analyze resume only
 python resume_analyzer.py resume.pdf
@@ -40,6 +43,37 @@ python resume_analyzer.py resume.pdf job.txt
 ```
 
 Results are saved to `output.txt`.
+
+### API Server
+
+Start the FastAPI server:
+
+```bash
+uvicorn api:app --reload
+```
+
+The server runs at `http://localhost:8000` with two endpoints:
+
+#### `POST /analyze`
+
+Upload a PDF resume for standalone analysis. Returns a structured summary including core tech stack, suitable job directions, resume strengths, areas to improve, and missing keywords for MLOps Engineer roles.
+
+```bash
+curl -X POST http://localhost:8000/analyze \
+  -F "file=@resume.pdf"
+```
+
+#### `POST /match`
+
+Upload a PDF resume and a job description to get a match analysis: matched skills, missing keywords, and suggested resume edits.
+
+```bash
+curl -X POST http://localhost:8000/match \
+  -F "file=@resume.pdf" \
+  -F "jd=Your job description text here"
+```
+
+Both endpoints return JSON: `{ "result": "<analysis text>" }`
 
 ## Environment Variables
 
